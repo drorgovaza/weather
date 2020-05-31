@@ -1,0 +1,24 @@
+<%- include("headers") -%>
+
+<div class="text-header">
+        <h1>Weather Website</h1>
+        <p>Now u can to check the weather in all over the world <br>
+         from any place on plante.<br>
+          Ready To Check ? <br>
+          Type The City Name you want to check  .</p>
+      
+          <form action="/" method="post">
+        <input id="cityplace" type="text" name="cityName">
+        <button type="submit">Check</button>
+        </form>
+        
+      </div>
+
+<div class="dataplace">
+  <span><%=local%></span> 
+
+    <h2><%= temperature %>°F </h2>
+
+    <img src="<%= icons%>" width="200px" height="160px">
+    <h2 class="des"><%= des %></h2>
+</div>

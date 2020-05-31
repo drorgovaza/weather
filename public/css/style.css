@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+body{
+      height: 100vh;
+      background: linear-gradient(rgb(47 , 150 , 163),rgb(48 , 62 ,143));
+      font-family: sans-serif;
+    
+}
+.menu{
+ width: 100%; }
+.menu img {
+      height: 65px;
+      color: white;
+      margin: 20px 50px;
+      cursor: pointer;
+      
+}
+      .menu ul{
+        display: inline-flex;
+        color:white;
+        list-style: none;
+        right: 60px;
+        top: 15px;
+        position: absolute;
+      }
+      .menu ul li{
+        margin: 15px;
+        cursor: pointer;
+        font-size: 18px;
+      }
+      .menu ul li fa{
+        margin: 23px;
+        font-size: 20px;
+      }
+      .menu ul li a{
+      text-decoration: none;
+      color: white;
+      padding: 1px;
+      }
+      .text-header{
+        width: 80%;
+        color:white;
+        margin: 7% auto 0 ;
+      }
+      .text-header h1{
+        font-size: 60px;
+      }
+      .text-header p{
+      font-size: 20px;
+      margin: 40px 0 50px;
+      }
+      input{
+        position: relative;
+        display: inline-block;
+        font-size: 20PX;
+        box-sizing: border-box;
+        transition: .5s;
+      }
+      input[type="text"]{
+        background: white;
+        width: 340px;
+        height: 50px;
+        border: none;
+        outline: none;
+        padding: 0 25px;
+        border-radius: 25px 0 0 25px;
+      }
+      button[type="submit"]{
+        padding-top: 4px;
+        left: -5px;
+        color: #fff;
+        position: relative;
+        border-radius:  0 25px 25px 0;
+        width: 150px;
+        height: 50px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background: linear-gradient(rgb(47 , 150 , 163),rgb(48 , 62 ,143));;
+      }
+      button[type="submit"]:hover{
+        background: #ff9ff3;
+      }
+
+      
+ .dataplace {
+  display: flex;
+  position: relative;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 180px;
+  width: 480px;
+  margin:2% auto 0 ;
+  filter: drop-shadow(0px 5px 3px black);
+   background: linear-gradient(rgb(47 , 150 , 163),rgb(48 , 62 ,143));;
+}
+
+      .big{
+        position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1 ;
+    height: 100%;
+    opacity: 0.2;
+      }
+      .dataplace h2{
+        padding-left: 40px;
+        padding-top: 20px;
+        padding:10px auto;
+        color: white;
+        font-size: 25px;
+        filter: drop-shadow(0px 5px 3px black);
+
+      }
+
+      .dataplace h1{
+        filter: drop-shadow(0px 5px 3px black);
+
+    padding-top: 60px;
+    border-top-width: 0px;
+
+      }
+      .dataplace .des{
+      padding-top: 120px;
+      color: #fff;
+      filter: drop-shadow(0px 5px 3px black);
+      padding-top: 20px;
+
+      }
+      span{
+       position: fixed;
+       margin-left: 190px;
+
+       margin-top: 30%;
+       margin-left: 30%;
+        font-weight: bold;
+        font-size: 30px;
+        color: white;
+        filter: drop-shadow(0px 5px 3px black);
+
+      }
